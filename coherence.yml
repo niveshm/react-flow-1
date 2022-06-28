@@ -4,7 +4,8 @@ frontend:
   url_path: /
   repo_path: frontend
   assets_path: html
-  #  local_packages: [":"]
+  # Content is static, so there are no real install, build and dev steps
+  # ":" is a typical "do nothing" command in a shell.
   install: [":"]
   build: [":"]
   dev: [":"]
