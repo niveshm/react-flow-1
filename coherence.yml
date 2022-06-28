@@ -3,11 +3,11 @@ frontend:
   index_file_name: index.html
   url_path: /
   repo_path: frontend
-  # assets_path: dist
-  # local_packages: ["node_modules"]
-  # install: ["yarn", "install"]
-  # build: ["yarn", "build"]
-  # dev: ["yarn", "dev"]
+  assets_path:
+  local_packages: []
+  install: []
+  build: []
+  dev: []
   
   system:
     dev:
