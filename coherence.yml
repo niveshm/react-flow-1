@@ -2,7 +2,7 @@ frontend:
   type: frontend
   index_file_name: index.html
   url_path: /
-  # repo_path: frontend
+  repo_path: frontend
   # assets_path: dist
   # local_packages: ["node_modules"]
   # install: ["yarn", "install"]
