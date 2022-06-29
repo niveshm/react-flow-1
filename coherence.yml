@@ -3,7 +3,7 @@ frontend:
   index_file_name: index.html
   url_path: /
   repo_path: frontend
-  assets_path: html
+  assets_path: src
   # Content is static, so there are no real install, build and dev steps
   # ":" is a typical "do nothing" command in a shell.
   install: [":"]
@@ -12,4 +12,4 @@ frontend:
   
   system:
     dev:
-      port: 8910
+      port: 3000
