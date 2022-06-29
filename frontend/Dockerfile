@@ -8,5 +8,9 @@ COPY package-lock.json package-lock.json
 #RUN npm ci --production
 RUN npm install
 
-COPY . .
+#COPY . .
+COPY public public
+COPY src src
+
+#CMD ["npm", "run", "start"]
 
