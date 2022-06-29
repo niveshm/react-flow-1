@@ -7,7 +7,7 @@ frontend:
   local_packages: ["/app/node_modules"]
   install: ["npm", "install"]
   build: ["npm", "run", "build"]
-  dev: ["PORT=3001 npm", "run", "start"]
+  dev: ["PORT=3001 npm", "start"]
   
   system:
     dev:
