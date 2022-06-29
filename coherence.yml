@@ -5,7 +5,7 @@ frontend:
   repo_path: frontend
   # assets_path: /app/build
   assets_path: build
-  local_packages: ["node_modules"]
+  local_packages: ["/app/node_modules"]
   install: ["npm", "install"]
   #  build: ["npm", "run", "--prefix /app", "build"]
   build: ["npm", "run", "build"]
