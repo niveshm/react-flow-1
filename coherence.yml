@@ -3,7 +3,7 @@ frontend:
   index_file_name: index.html
   url_path: /
   repo_path: frontend
-  assets_path: build
+  assets_path: /app/build
   install: ["npm", "install"]
   build: ["npm", "run", "--prefix /app", "build"]
   dev: ["npm", "run", "--prefix /app", "start"]
