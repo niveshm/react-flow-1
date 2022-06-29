@@ -1,3 +1,3 @@
 # react-template
 
-Reference source code: [Add React in One Minute](https://en.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute)
+Reference code: [https://upmostly.com/tutorials/react-hello-world-your-first-react-app](https://upmostly.com/tutorials/react-hello-world-your-first-react-app)
