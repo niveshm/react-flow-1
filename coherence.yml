@@ -3,11 +3,14 @@ frontend:
   index_file_name: index.html
   url_path: /
   repo_path: frontend
-  assets_path: /app/build
+  # assets_path: /app/build
+  assets_path: build
   local_packages: ["node_modules"]
   install: ["npm", "install"]
-  build: ["npm", "run", "--prefix /app", "build"]
-  dev: ["npm", "run", "--prefix /app", "start"]
+  #  build: ["npm", "run", "--prefix /app", "build"]
+  build: ["npm", "run", "build"]
+  # dev: ["npm", "run", "--prefix /app", "start"]
+  dev: ["npm", "run", "start"]
   
   system:
     dev:
