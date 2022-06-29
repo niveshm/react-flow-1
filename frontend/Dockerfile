@@ -9,4 +9,3 @@ RUN npm ci --production
 
 COPY . .
 
-RUN npm dev
