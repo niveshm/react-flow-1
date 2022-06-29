@@ -4,6 +4,7 @@ frontend:
   url_path: /
   repo_path: frontend
   assets_path: /app/build
+  local_packages: ["node_modules"]
   install: ["npm", "install"]
   build: ["npm", "run", "--prefix /app", "build"]
   dev: ["npm", "run", "--prefix /app", "start"]
